@@ -18,6 +18,11 @@ func main() {
 
 	mission1(g)
 	mission2(g)
+
+	//Mini challenge
+	//fmt.Println(g.LookupNode("Berlin"))
+	//fmt.Println(g.NodeName(7))
+	//fmt.Println(g.Neighbors(0))
 }
 
 func mission1(g *pkg.Graph) {
