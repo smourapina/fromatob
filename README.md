@@ -6,6 +6,17 @@ Welcome to the Women Who Go workshop in January challenge with fromAtoB
 
 fromAtoB's vision is to combine flights, trains, long distance buses and car-pooling towards your perfect trip from A to B within one booking, one payment, within less than 30 seconds.
 
+## How to run
+
+You can run your program with:
+```
+go run cmd/go-workshop/main.go
+```
+To test, use:
+```
+go test ./...
+```
+
 
 ## What are we doing today?
 
@@ -102,3 +113,5 @@ Another way is to create a 2-D matrix of booleans. The boolean in row i, column 
 Try to change the Graph to use an adjacency matrix instead of an adjacency list! Do it in a way that the code you wrote in `pkg/algorithms.go` still works -- the methods that access the Graph should work as before.
 
 However, if you want to change the way the graph is *created*, go ahead! You'll just need to adapt the `LoadGraph` function in `pkg/files.go`.
+
+
